@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir Projects/$1
-cd Projects/$1
+mkdir $1
+cd $1
 pio project init --board disco_f407vg --project-option "framework=cmsis"
