@@ -10,8 +10,8 @@
             "includePath": [
                 "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/src",
                 "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/include",
-                "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/~/.platformio/packages/framework-cmsis/CMSIS/Include",
-                "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/~/.platformio/packages/framework-cmsis-stm32f4/Include",
+                "/home/bente/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/home/bente/.platformio/packages/framework-cmsis-stm32f4/Include",
                 ""
             ],
             "browse": {
@@ -19,8 +19,8 @@
                 "path": [
                     "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/src",
                     "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/include",
-                    "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/~/.platformio/packages/framework-cmsis/CMSIS/Include",
-                    "/home/bente/PlatformIO/stm32f4-cmsis-learning/01_startup_and_linker/~/.platformio/packages/framework-cmsis-stm32f4/Include",
+                    "/home/bente/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/home/bente/.platformio/packages/framework-cmsis-stm32f4/Include",
                     ""
                 ]
             },
