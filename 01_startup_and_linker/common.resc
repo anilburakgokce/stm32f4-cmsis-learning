@@ -6,4 +6,4 @@ machine LoadPlatformDescription @platforms/boards/stm32f4_discovery-kit.repl
 sysbus LoadELF @.pio/build/disco_f407vg/firmware.elf
 
 # show USART2
-showAnalyzer sysbus.usart2
+# showAnalyzer sysbus.usart2
