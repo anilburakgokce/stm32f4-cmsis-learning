@@ -1,4 +1,4 @@
-The default CMSIS startup provided by PlatformIO is disabled by replacing the `framework = cmsis` line with `framework = cmsis` in order to fully control the Cortex-M4 boot sequence.
+The default CMSIS startup provided by PlatformIO is disabled by replacing the `framework = cmsis` line with `framework = ` in order to fully control the Cortex-M4 boot sequence.
 
 In `src/startup.S`:
 - All exception handlers are weakly aliased to a default infinite loop, allowing seamless override from both C and assembly.
