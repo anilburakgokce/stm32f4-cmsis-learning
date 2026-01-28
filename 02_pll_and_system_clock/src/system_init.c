@@ -23,7 +23,7 @@ void SystemInit(void)
                | FLASH_ACR_PRFTEN // enable prefetch
                | FLASH_ACR_ICEN // enable instruction cache
                | FLASH_ACR_DCEN; // enable data cache
-    while(FLASH->ACR & FLASH_ACR_LATENCY != FLASH_ACR_LATENCY_5WS); // wait for the configuration to take place
+    while((FLASH->ACR & FLASH_ACR_LATENCY) != FLASH_ACR_LATENCY_5WS); // wait for the configuration to take place
 
     // Configure PLL for 168 MHz system clock
     // VCO_IN  = HSI / PLLM     = 16 / 16 = 1
