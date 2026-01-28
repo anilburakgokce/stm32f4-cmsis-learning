@@ -1,0 +1,387 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (exit)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (__libc_init_array)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (memset)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o) (atexit)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+/home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+                              /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___env_recursive_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+ .text          0x0000000000000000       0x40 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .data          0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .bss           0x0000000000000000       0x1c /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+ .text          0x0000000000000000       0x74 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .data          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/delay.o
+ .bss           0x0000000000000000        0x0 .pio/build/disco_f407vg/src/delay.o
+ .text          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/gpio.o
+ .data          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/gpio.o
+ .bss           0x0000000000000000        0x0 .pio/build/disco_f407vg/src/gpio.o
+ .text          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/main.o
+ .data          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/main.o
+ .bss           0x0000000000000000        0x0 .pio/build/disco_f407vg/src/main.o
+ .text          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/startup.o
+ .data          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/startup.o
+ .bss           0x0000000000000000        0x0 .pio/build/disco_f407vg/src/startup.o
+ .text          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/system_init.o
+ .data          0x0000000000000000        0x0 .pio/build/disco_f407vg/src/system_init.o
+ .bss           0x0000000000000000        0x0 .pio/build/disco_f407vg/src/system_init.o
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x20 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000000000      0x428 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x0000000000000000       0x48 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .text.memset   0x0000000000000000       0x94 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x38 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x0000000000000000       0x14 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .init_array.00000
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000000       0xe8 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .data.__atexit_recursive_mutex
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000000       0x5c /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000000000        0xc /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x20 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x0000000000000000       0x34 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x34 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000000       0xb0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ COMMON         0x0000000000000000       0x21 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000000000       0xc0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000000       0x34 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+ .text          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+ .data          0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+ .bss           0x0000000000000000        0x0 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+ .init          0x0000000000000000        0x8 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+ .fini          0x0000000000000000        0x8 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000100000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtbegin.o
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+                0x0000000020020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.text           0x0000000008000000      0x208
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000       0x40 .pio/build/disco_f407vg/src/startup.o
+ *(.text*)
+ .text          0x0000000008000040        0x8 .pio/build/disco_f407vg/src/delay.o
+                0x0000000008000040                delay_cycles
+ .text.gpio_init_led
+                0x0000000008000048       0x40 .pio/build/disco_f407vg/src/gpio.o
+                0x0000000008000048                gpio_init_led
+ .text.gpio_init_button
+                0x0000000008000088       0x28 .pio/build/disco_f407vg/src/gpio.o
+                0x0000000008000088                gpio_init_button
+ .text.gpio_led_on
+                0x00000000080000b0       0x10 .pio/build/disco_f407vg/src/gpio.o
+                0x00000000080000b0                gpio_led_on
+ .text.gpio_led_off
+                0x00000000080000c0       0x10 .pio/build/disco_f407vg/src/gpio.o
+                0x00000000080000c0                gpio_led_off
+ .text.gpio_led_toggle
+                0x00000000080000d0       0x1c .pio/build/disco_f407vg/src/gpio.o
+                0x00000000080000d0                gpio_led_toggle
+ .text.gpio_button_read
+                0x00000000080000ec       0x10 .pio/build/disco_f407vg/src/gpio.o
+                0x00000000080000ec                gpio_button_read
+ .text.main     0x00000000080000fc       0x2a .pio/build/disco_f407vg/src/main.o
+                0x00000000080000fc                main
+ .text.Default_Handler
+                0x0000000008000126        0x4 .pio/build/disco_f407vg/src/startup.o
+                0x0000000008000126                DebugMon_Handler
+                0x0000000008000126                HardFault_Handler
+                0x0000000008000126                SysTick_Handler
+                0x0000000008000126                PendSV_Handler
+                0x0000000008000126                NMI_Handler
+                0x0000000008000126                UsageFault_Handler
+                0x0000000008000126                Default_Handler
+                0x0000000008000126                MemManage_Handler
+                0x0000000008000126                SVC_Handler
+                0x0000000008000126                BusFault_Handler
+ *fill*         0x000000000800012a        0x2 
+ .text.Reset_Handler
+                0x000000000800012c       0x44 .pio/build/disco_f407vg/src/startup.o
+                0x000000000800012c                Reset_Handler
+ .text.SystemInit
+                0x0000000008000170       0x98 .pio/build/disco_f407vg/src/system_init.o
+                0x0000000008000170                SystemInit
+ *(.rodata*)
+                0x0000000008000208                _etext = .
+
+.glue_7         0x0000000008000208        0x0
+ .glue_7        0x0000000008000208        0x0 linker stubs
+
+.glue_7t        0x0000000008000208        0x0
+ .glue_7t       0x0000000008000208        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008000208        0x0
+ .vfp11_veneer  0x0000000008000208        0x0 linker stubs
+
+.v4_bx          0x0000000008000208        0x0
+ .v4_bx         0x0000000008000208        0x0 linker stubs
+
+.init           0x0000000008000208        0x4
+ .init          0x0000000008000208        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+                0x0000000008000208                _init
+
+.fini           0x000000000800020c        0x4
+ .fini          0x000000000800020c        0x4 /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+                0x000000000800020c                _fini
+
+.iplt           0x0000000008000210        0x0
+ .iplt          0x0000000008000210        0x0 .pio/build/disco_f407vg/src/delay.o
+
+.rel.dyn        0x0000000008000210        0x0
+ .rel.iplt      0x0000000008000210        0x0 .pio/build/disco_f407vg/src/delay.o
+
+.data           0x0000000020000000        0x0 load address 0x0000000008000208
+                0x0000000020000000                _sdata = .
+ *(.data*)
+                0x0000000020000000                _edata = .
+                0x0000000008000208                _sidata = LOADADDR (.data)
+
+.igot.plt       0x0000000020000000        0x0
+ .igot.plt      0x0000000020000000        0x0 .pio/build/disco_f407vg/src/delay.o
+
+.bss            0x0000000020000000        0x0
+                0x0000000020000000                _sbss = .
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000000                _ebss = .
+LOAD .pio/build/disco_f407vg/src/delay.o
+LOAD .pio/build/disco_f407vg/src/gpio.o
+LOAD .pio/build/disco_f407vg/src/main.o
+LOAD .pio/build/disco_f407vg/src/startup.o
+LOAD .pio/build/disco_f407vg/src/system_init.o
+START GROUP
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/libgcc.a
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libm.a
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libstdc++.a
+END GROUP
+START GROUP
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/libgcc.a
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libg.a
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/libc.a
+END GROUP
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtend.o
+LOAD /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crtn.o
+OUTPUT(.pio/build/disco_f407vg/firmware.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/bente/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x21 .pio/build/disco_f407vg/src/delay.o
+ .ARM.attributes
+                0x000000000000003f       0x33 .pio/build/disco_f407vg/src/gpio.o
+ .ARM.attributes
+                0x0000000000000072       0x33 .pio/build/disco_f407vg/src/main.o
+ .ARM.attributes
+                0x00000000000000a5       0x25 .pio/build/disco_f407vg/src/startup.o
+ .ARM.attributes
+                0x00000000000000ca       0x33 .pio/build/disco_f407vg/src/system_init.o
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e .pio/build/disco_f407vg/src/gpio.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f .pio/build/disco_f407vg/src/main.o
+ .comment       0x000000000000007e       0x7f .pio/build/disco_f407vg/src/system_init.o
+
+.debug_line     0x0000000000000000      0x66b
+ .debug_line    0x0000000000000000       0x3d .pio/build/disco_f407vg/src/delay.o
+ .debug_line    0x000000000000003d      0x21a .pio/build/disco_f407vg/src/gpio.o
+ .debug_line    0x0000000000000257      0x1c8 .pio/build/disco_f407vg/src/main.o
+ .debug_line    0x000000000000041f       0x67 .pio/build/disco_f407vg/src/startup.o
+ .debug_line    0x0000000000000486      0x1e5 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_info     0x0000000000000000      0xaa7
+ .debug_info    0x0000000000000000       0x26 .pio/build/disco_f407vg/src/delay.o
+ .debug_info    0x0000000000000026      0x3e0 .pio/build/disco_f407vg/src/gpio.o
+ .debug_info    0x0000000000000406      0x19c .pio/build/disco_f407vg/src/main.o
+ .debug_info    0x00000000000005a2       0x22 .pio/build/disco_f407vg/src/startup.o
+ .debug_info    0x00000000000005c4      0x4e3 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_abbrev   0x0000000000000000      0x2af
+ .debug_abbrev  0x0000000000000000       0x14 .pio/build/disco_f407vg/src/delay.o
+ .debug_abbrev  0x0000000000000014      0x102 .pio/build/disco_f407vg/src/gpio.o
+ .debug_abbrev  0x0000000000000116       0xbe .pio/build/disco_f407vg/src/main.o
+ .debug_abbrev  0x00000000000001d4       0x12 .pio/build/disco_f407vg/src/startup.o
+ .debug_abbrev  0x00000000000001e6       0xc9 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_aranges  0x0000000000000000       0xd0
+ .debug_aranges
+                0x0000000000000000       0x20 .pio/build/disco_f407vg/src/delay.o
+ .debug_aranges
+                0x0000000000000020       0x48 .pio/build/disco_f407vg/src/gpio.o
+ .debug_aranges
+                0x0000000000000068       0x20 .pio/build/disco_f407vg/src/main.o
+ .debug_aranges
+                0x0000000000000088       0x28 .pio/build/disco_f407vg/src/startup.o
+ .debug_aranges
+                0x00000000000000b0       0x20 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_str      0x0000000000000000      0x3eb
+ .debug_str     0x0000000000000000       0x5c .pio/build/disco_f407vg/src/delay.o
+ .debug_str     0x000000000000005c      0x2c9 .pio/build/disco_f407vg/src/gpio.o
+                                        0x35c (size before relaxing)
+ .debug_str     0x0000000000000325       0x24 .pio/build/disco_f407vg/src/main.o
+                                        0x22e (size before relaxing)
+ .debug_str     0x0000000000000349        0xe .pio/build/disco_f407vg/src/startup.o
+                                         0x5e (size before relaxing)
+ .debug_str     0x0000000000000357       0x94 .pio/build/disco_f407vg/src/system_init.o
+                                        0x35f (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0x78
+ .debug_ranges  0x0000000000000000       0x38 .pio/build/disco_f407vg/src/gpio.o
+ .debug_ranges  0x0000000000000038       0x10 .pio/build/disco_f407vg/src/main.o
+ .debug_ranges  0x0000000000000048       0x20 .pio/build/disco_f407vg/src/startup.o
+ .debug_ranges  0x0000000000000068       0x10 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_frame    0x0000000000000000       0xc0
+ .debug_frame   0x0000000000000000       0x78 .pio/build/disco_f407vg/src/gpio.o
+ .debug_frame   0x0000000000000078       0x28 .pio/build/disco_f407vg/src/main.o
+ .debug_frame   0x00000000000000a0       0x20 .pio/build/disco_f407vg/src/system_init.o
+
+.debug_loc      0x0000000000000000       0x21
+ .debug_loc     0x0000000000000000       0x21 .pio/build/disco_f407vg/src/main.o
