@@ -1,2 +1,4 @@
+# show log for change in LEDs
+logLevel -1 gpioPortD.GreenLED
 # --- Start Execution ---
 start
