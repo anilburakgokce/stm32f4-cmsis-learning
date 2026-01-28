@@ -1,10 +1,5 @@
 ## GPIO Bare Metal Example Project
-
-
-### Owned Files
-- `src/startup.S`
-- `src/system_init.c`
-- `linker.ld`
+Bare-metal GPIO input/output example for the STM32F407 Discovery board. The project demonstrates configuring GPIO registers directly using CMSIS and interacting with the on-board user button in Renode, without HAL or vendor startup code.
 
 ### Notes
 In `platformio.ini`:
@@ -16,3 +11,7 @@ In `src/startup.S`:
 
 In `src/system_init.c`:
 - Default HSI is disabled and PLL of 168MHz is enabled
+
+The following commands are to be run in Renode window in order to press and release the button configured in the code, respectively:
+- `gpioA.UserButton Press`
+- `gpioA.UserButton Release`
