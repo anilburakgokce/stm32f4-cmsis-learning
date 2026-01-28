@@ -18,15 +18,37 @@ void SystemInit(void)
     RCC->CR &= ~RCC_CR_PLLON;
     while (RCC->CR & RCC_CR_PLLRDY);
 
-    //Configure Flash latency for 16 MHz
-    FLASH->ACR = FLASH_ACR_LATENCY_0WS
-               | FLASH_ACR_PRFTEN
-               | FLASH_ACR_ICEN
-               | FLASH_ACR_DCEN;
+    //Configure Flash latency for 168 MHz
+    FLASH->ACR = FLASH_ACR_LATENCY_5WS
+               | FLASH_ACR_PRFTEN // enable prefetch
+               | FLASH_ACR_ICEN // enable instruction cache
+               | FLASH_ACR_DCEN; // enable data cache
+    while(FLASH->ACR & FLASH_ACR_LATENCY != FLASH_ACR_LATENCY_5WS); // wait for the configuration to take place
 
-    //Select HSI as system clock
+    // Configure PLL for 168 MHz system clock
+    // VCO_IN  = HSI / PLLM     = 16 / 16 = 1
+    // VCO_OUT = VCO_IN * PLLN  = 1 / 336 = 336
+    // SYS_CLK = VCO_OUT / PLLP = 336 / 2 = 168
+    RCC->PLLCFGR =
+        (16 << RCC_PLLCFGR_PLLM_Pos) |
+        (336 << RCC_PLLCFGR_PLLN_Pos) |
+        (0 << RCC_PLLCFGR_PLLP_Pos) |   // PLLP = 2
+        RCC_PLLCFGR_PLLSRC_HSI; // set PLL_in as HSI
+
+    // Enable PLL
+    RCC->CR |= RCC_CR_PLLON;
+    while ((RCC->CR & RCC_CR_PLLRDY) == 0); // wait until the PLL is enabled
+
+    // Set prescalers
+    RCC->CFGR |=
+        RCC_CFGR_HPRE_DIV1 |   /* AHB = 168 MHz */
+        RCC_CFGR_PPRE1_DIV4 |  /* APB1 = 42 MHz */
+        RCC_CFGR_PPRE2_DIV2;   /* APB2 = 84 MHz */
+
+    // Switch system clock to PLL
     RCC->CFGR &= ~RCC_CFGR_SW;
-    while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_HSI); // wait until the change takes place
+    RCC->CFGR |= RCC_CFGR_SW_PLL;
+    while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL);
 
     // Vector Table Offset
     SCB->VTOR = FLASH_BASE;
